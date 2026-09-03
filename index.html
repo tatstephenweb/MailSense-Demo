@@ -19,7 +19,6 @@
         colors: {
           canvas: '#FFFFFF',
           panel: '#29700A',
-          panelmuted: '#5AC74A',
           darker: '#00451B',
           border: 'rgba(255,255,255,0.06)',
           ink: '#222222',
@@ -32,6 +31,7 @@
           firstgreen: '#F7FCF5',
           secondgreen: '#E4F5DF',
           thirdgreen: '#C5E8BE',
+          sixthgreen: '#41AB5D',
         }
       }
     }
@@ -80,7 +80,7 @@
       <div>
         <p class="px-3 mb-2 text-[11px] font-bold text-faint tracking-wide">SORT PRIORITY</p>
         <div class="space-y-1">
-          <button data-priority="high" class="priority-item w-full flex items-center gap-2.5 rounded-lg px-3 py-1.5">
+          <button data-priority="high" class="priority-item w-full flex items-center gap-2.5 rounded-lg px-3 py-1.5 text-[15px] font-medium">
             <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 3v12" stroke="#ef4444" stroke-width="2" stroke-linecap="round"/>
               <path d="M6 9l6-6 6 6" stroke="#ef4444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -130,12 +130,12 @@
 
     <!-- Reserved slot for an upcoming game -->
     <div class="px-3 pb-3 pt-3 shrink-0 border-t border-border/10">
-      <div id="sidebar-game-slot" class="h-24 rounded-xl bg-gradient-to-br from-[#bdeef0] to-[#a7dff0]"></div>
+      <div id="sidebar-game-slot" class="h-24 rounded-xl bg-sixthgreen"></div>
     </div>
 
     <!-- Profile -->
     <div class="flex items-center gap-2 px-4 py-4 border-t border-border shrink-0">
-      <div class="h-8 w-8 rounded-full bg-panelmuted flex items-center justify-center text-[15px] font-bold shrink-0">T</div>
+      <div class="h-8 w-8 rounded-full bg-faint flex items-center justify-center text-[15px] font-bold shrink-0">T</div>
       <span class="text-10 text-white">Tat Stephen</span>
     </div>
 
@@ -145,17 +145,17 @@
   <div class="flex-1 flex flex-col min-w-0 h-full">
 
     <!-- Mobile top bar -->
-    <div class="md:hidden flex items-center gap-3 px-4 py-3.5 border-b border-border shrink-0 bg-panel">
-      <button id="open-sidebar" class="text-ink p-1" aria-label="Open menu">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
-      </button>
+    <div class="md:hidden flex items-center gap-3 px-4 py-3.5 border-b border-border shrink-0 bg-darker justify-between">
       <span class="text-[16px] font-bold tracking-tight text-white">MailSense</span>
+      <button id="open-sidebar" class="text-ink p-1 bg-faint rounded-xl" aria-label="Open menu">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
     </div>
 
     <!-- List view -->
     <section id="list-view" class="flex-1 flex flex-col min-h-0">
       <div class="px-5 md:px-5 pt-5 pb-5 shrink-0 border-b border-ink/10 bg-firstgreen">
-        <h1 id="list-title" class="text-[25px] font-bold tracking-tight">All Inboxes</h1>
+        <h1 id="list-title" class="text-[20px] font-bold tracking-tight">All Inboxes</h1>
       </div>
       <div id="mail-list" class="flex-1 overflow-y-auto custom-scroll px-2 md:px-2 pb-8"></div>
     </section>

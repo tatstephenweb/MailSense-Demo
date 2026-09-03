@@ -4,7 +4,7 @@ html, body {
 }
 
 * {
-  scrollbar-color: #5AC74A transparent;
+  scrollbar-color: #41AB5D transparent;
 }
 
 /* Custom scrollbar for the nav and lists, so it stays slim and matches the dark theme */
@@ -21,12 +21,12 @@ html, body {
 }
 
 .custom-scroll::-webkit-scrollbar-thumb {
-  background-color: #5AC74A;
+  background-color: #41AB5D;
   border-radius: 999px;
 }
 
 .custom-scroll::-webkit-scrollbar-thumb:hover {
-  background-color: #5AC74A;
+  background-color: #41AB5D;
 }
 
 /* Sidebar nav items */
