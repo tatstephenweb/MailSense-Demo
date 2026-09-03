@@ -93,7 +93,7 @@
       section.className = 'mb-2';
 
       const heading = document.createElement('p');
-      heading.className = 'px-2 md:px-3 py-3 text-[13px] font-semibold text-#225C09';
+      heading.className = 'px-2 md:px-3 py-2 text-[13px] font-semibold text-#225C09 border-b border-ink/10';
       heading.textContent = day;
       section.appendChild(heading);
 
@@ -121,19 +121,19 @@
       <div class="view-fade max-w-2xl">
         <div class="flex items-center gap-2 mb-4">
           <span class="h-2.5 w-2.5 rounded-sm ${PRIORITY_DOT[mail.priority]} shrink-0"></span>
-          <span class="text-[13px] font-medium text-muted">${PRIORITY_LABEL[mail.priority]}</span>
+          <span class="text-[13px] font-medium text-ink">${PRIORITY_LABEL[mail.priority]}</span>
         </div>
         <h2 class="text-[24px] font-bold tracking-tight mb-5">${escapeHtml(mail.subject)}</h2>
         <div class="flex items-center gap-3 pb-5 mb-6 border-b border-border">
-          <div class="h-10 w-10 rounded-full bg-panelmuted flex items-center justify-center text-[15px] font-bold shrink-0">
+          <div class="h-10 w-10 rounded-full bg-panelmuted flex items-center justify-center text-20px font-bold shrink-0">
             ${escapeHtml(mail.sender.trim().charAt(0).toUpperCase() || '?')}
           </div>
           <div class="min-w-0">
             <p class="text-[15px] font-medium truncate">${escapeHtml(mail.sender)}</p>
-            <p class="text-[13px] text-faint">${escapeHtml(mail.day)} at ${escapeHtml(mail.time)}</p>
+            <p class="text-[13px] text-#555555">${escapeHtml(mail.day)} at ${escapeHtml(mail.time)}</p>
           </div>
         </div>
-        <p class="text-[15px] leading-7 text-[#c7cbd3] whitespace-pre-line">${escapeHtml(mail.body)}</p>
+        <p class="text-[15px] leading-7 text-#555555 whitespace-pre-line">${escapeHtml(mail.body)}</p>
       </div>
     `;
   }

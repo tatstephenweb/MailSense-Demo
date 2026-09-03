@@ -31,30 +31,29 @@ html, body {
 
 /* Sidebar nav items */
 .nav-item, .priority-item {
-  color: #fff;
+  color: #C5E8BE;
   font-size:12px;
   transition: background-color 120ms ease, color 120ms ease;
 }
 
 .nav-item:not(.cursor-not-allowed):hover,
 .priority-item:hover {
-  background-color: #225C09;
   color: #fff;
 }
 
 .nav-item--active,
 .priority-item--active {
-  background-color: #225C09;
+  background-color: #006E2C;
   color: #fff;
 }
 
 /* Mail row */
 .mail-row {
-  transition: background-color 120ms ease, border-color 120ms ease;
+  transition: background-color 120ms ease;
 }
 
 .mail-row:hover {
-  background-color: #12151b;
+  background-color: #FFF;
 }
 
 .mail-row--unread .mail-row__subject {
@@ -71,6 +70,8 @@ html, body {
 .view-fade {
   animation: viewFade 160ms ease-out;
 }
+
+.nav-icon { width: 32px; height: 32px; }
 
 @keyframes viewFade {
   from { opacity: 0; transform: translateY(4px); }

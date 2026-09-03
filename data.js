@@ -60,7 +60,7 @@ const DEMO_EMAILS = [
     body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
     time: '9:30AM',
     day: 'Yesterday',
-    priority: 'low',
+    priority: 'high',
     read: true
   },
   {
@@ -87,6 +87,150 @@ const DEMO_EMAILS = [
   },
   {
     id: 'm8',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm9',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm10',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm11',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm12',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm13',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm14',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm15',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm16',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm17',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm18',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm19',
+    sender: 'Google Developers Group',
+    subject: 'Hackathon Registration Starts',
+    preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
+    body: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four members can sign up through the portal linked below. Spots are limited, so early registration is encouraged.',
+    time: '9:30AM',
+    day: 'Yesterday',
+    priority: 'high',
+    read: true
+  }
+  ,
+  {
+    id: 'm20',
     sender: 'Google Developers Group',
     subject: 'Hackathon Registration Starts',
     preview: 'Registration for the upcoming hackathon opens today at noon. Teams of up to four can sign up through the portal.',
